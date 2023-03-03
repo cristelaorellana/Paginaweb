@@ -1,0 +1,41 @@
+
+
+body{
+    background-image: url(imagen.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container.button{
+    float: center;
+    display: flex;
+    justify-content: center;
+}
+
+.All{
+    margin-top: 100px;
+    float: center;
+    width: 300px;
+    margin-left: 400px;
+    display: center;
+    height: 85%;
+    padding: 100px;
+    border-radius: 20px;;
+    box-shadow: 0 0 40px rgb(16, 6, 150);
+    background: linear-gradient(pink,rgb(22, 151, 184));
+}
+#forma{
+    text-align: center;
+    
+}
+
+.container.elemento{
+    text-align: left;
+
+}
+.elemento.ul{
+    list-style: none;
+}
+
+
+  
+  

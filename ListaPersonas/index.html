@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Listado de Personas</title>
+</head>
+<body onload="mostrarPersona();">
+    <div class="All">
+    <div class="contenedor" id="cabecero">
+        <center><h1>Listado de Personas</h1></center> 
+          <div class="container">
+            <div class="elemento">
+                <ul id="persona"></ul>
+                        <form id="forma">
+                            <input type="text" id="nombre" placeholder="Nombre"><br>
+                            <br>
+                            <input type="text" id="apellido" placeholder="Apellido">
+                        </form> 
+                        <button onclick="agregarPersona()"><span class="material-symbols-outlined">
+                            person_add
+                            </span></button>  
+                         
+            <script src="persona.js"></script>
+           <script src="main.js"></script>          
+    </div>
+
+
+
+       
+
+ 
+    
+
+
+</body>
+</html>

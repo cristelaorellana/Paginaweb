@@ -1,0 +1,56 @@
+body{
+    background: #12c2e9; 
+  background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+
+}.titulo{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(173, 69, 130);
+     
+}
+.imagenTarjeta{
+    font-size: 40px;
+    height: 100px;
+    float:left;
+    display: flex;
+
+  
+}
+div.imagenEfectivo{
+    font-size: 5px;
+    float: right;
+    height: 200px;
+
+}
+form#login.metodoEfectivo{
+    float: right;
+    font-size: 70px;
+    display:flex;
+    padding: 10px;
+}
+div.metodoTarjeta{
+    float:left;
+    font-size: 70px;
+    left: 200px;
+    display: flex;
+    text-align:start;
+}
+.check-box{
+    size: 100%;
+}
+
+.container{
+    font-size: 60px;
+    position:flex;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+   text-align: center;
+}
+.container .titulo{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(5, 5, 5);
+
+}

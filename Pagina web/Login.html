@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión y Registro</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>	
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="elegir"></div>
+                <button type="button" id="hi" class="toggle-btn">Iniciar Sesión</button>
+                <button type="button1" class="toggle-btn" onclick="registrar()">Registrar</button>
+            </div>
+       
+            
+            <form id="login" class="input-group">
+                <input type="text" id="nombre" name="nombre" class="input-field" placeholder="Nombre de Usuario">
+                <input type="password" id="contraseña" name="contraseña" class="input-field" placeholder="Contraseña" >
+                <input type="checkbox" name="rcontraseña" class="check-box"><span>Recordar Contraseña</span>
+                <button type="submit"  class="submit-btn" onclick="validar()">Acceder</button>
+                
+            </form>
+            <form id="registrar" class="input-group">
+                <input type="text" name="nombreu" class="input-field" placeholder="Nombre de Usuario">
+                <input type="email" name="correo1" class="input-field" placeholder="Correo">
+                <input type="password" name="contraseñaa" class="input-field" placeholder="Contraseña">
+                <input type="checkbox" name="aceptar" class="check-box"><span>Acepto los términos y Condiciones.</span>
+                <button type="submit" class="submit-btn">Registar</button>
+            </form>
+        </div>
+        <script src="login.js"></script>
+    </div>
+
+    <script>
+        
+        var x = document.getElementById("login");
+        var y = document.getElementById("registrar");
+        var z = document.getElementById("elegir");
+
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z,style.left = "0px";   
+        }
+
+        function registrar(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+              
+        }
+    </script>
+</body>
+</html>
